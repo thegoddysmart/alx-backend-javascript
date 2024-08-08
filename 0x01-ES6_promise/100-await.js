@@ -1,5 +1,5 @@
-import uploadPhoto from './5-photo-reject';
-import createUser from './4-user-promise';
+import uploadPhoto from './utils';
+import createUser from './utils';
 
 export default async function asyncUploadUser() {
   try {
