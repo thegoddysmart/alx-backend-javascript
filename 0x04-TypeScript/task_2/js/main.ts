@@ -54,7 +54,7 @@ console.log(createEmployee('$500'));
 type Employee = Teacher | Director;
 
 function isDirector(employee: Employee): employee is Director {
-    return employee instanceof Director;
+    return (employee as Director).workDirectorTask !== undefined;
 }
 
 function executeWork(employee: Employee) {
@@ -65,8 +65,8 @@ function executeWork(employee: Employee) {
     }
 }
 
-console.log(executeWork(createEmployee(200)));
-console.log(executeWork(createEmployee(1000)));
+// console.log(executeWork(createEmployee(200)));
+// console.log(executeWork(createEmployee(1000)));
 
 type Subjects = "Math" | "History";
 
