@@ -1,3 +1,4 @@
+// 1-calcul.js
 function calculateNumber(type, a, b) {
   const firstInt = Math.round(a);
   const secondInt = Math.round(b);
