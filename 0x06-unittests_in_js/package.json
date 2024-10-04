@@ -1,24 +1,21 @@
 {
-
   "scripts": {
-
     "test": "node ./node_modules/mocha/bin/mocha"
-
   },
-
   "dependencies": {
-
     "chai": "^4.3.6",
-
     "express": "^4.18.1",
-
-    "mocha": "^10.0.0",
-
     "request": "^2.88.2",
-
     "sinon": "^14.0.0"
-
+  },
+  "name": "0x06-unittests_in_js",
+  "description": "",
+  "version": "1.0.0",
+  "main": "0-calcul.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.7.3"
   }
-
 }
-

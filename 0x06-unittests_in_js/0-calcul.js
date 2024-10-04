@@ -1,4 +1,4 @@
-// Calculation function.
+// This is the calculation function.
 
 function calculateNumber(a, b) {
     firstInt = Math.round(a);
