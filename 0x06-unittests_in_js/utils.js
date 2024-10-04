@@ -1,20 +1,20 @@
 const Utils = {
     calculateNumber(type, a, b) {
-    const firstInt = Math.round(a);
-    const secondInt = Math.round(b);
+    const roundedA = Math.round(a);
+    const roundedB = Math.round(b);
 
     if (type === 'SUBTRACT') {
-        return firstInt - secondInt;
+        return roundedA - roundedB;
     }
 
     if (type === 'DIVIDE') {
-        if (secondInt === 0) {
+        if (roundedB === 0) {
         return 'Error';
         }
-        return firstInt / secondInt;
+        return roundedA / roundedB;
     }
 
-    return firstInt + secondInt;
+    return roundedA + roundedB;
     }
 };
 
